@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -11,6 +11,26 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class Student {
     
+    private String SID;
+
+    /**
+     * Get the value of SID
+     *
+     * @return the value of SID
+     */
+    public String getSID() {
+        return SID;
+    }
+
+    /**
+     * Set the value of SID
+     *
+     * @param SID new value of SID
+     */
+    public void setSID(String SID) {
+        this.SID = SID;
+    }
+
     private String name;
 
     /**
